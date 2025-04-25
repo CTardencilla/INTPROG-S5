@@ -8,6 +8,6 @@ suma= prorec + canini
 resta= suma - proven
 
 print(f"""Inventario inicial: {canini:>5}
-productos recibidos: {prorec:>2}
-productos vendidos: {proven:>3}
+productos recibidos: {prorec:>5}
+productos vendidos: {proven:>5}
 {"inventario final disponible: ":<15}{resta:>4}""")
